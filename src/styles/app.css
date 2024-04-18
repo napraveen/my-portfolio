@@ -1,0 +1,378 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* overflow-x: hidden; */
+  /* overflow-y: hidden; */
+}
+body {
+  background-color: white;
+}
+.container {
+  height: auto;
+  width: auto;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+}
+
+.left {
+  height: auto;
+  width: 350px;
+  /* background-color: yellow; */
+  display: flex;
+  align-items: center;
+  /* align-items: center; */
+  flex-direction: column;
+  /* background-color: beige; */
+  /* overflow: hidden; */
+  position: fixed;
+  /* top: 0;
+  left: 0;
+  bottom: 0; */
+}
+
+.right {
+  /* flex: 1; */
+  overflow-x: hidden;
+  overflow-y: auto;
+  height: auto;
+  width: 100%;
+  /* background-color: red; */
+  margin-left: 350px;
+}
+
+.my-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.my-title {
+  /* width: 200px; */
+  /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+}
+.my-name {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.my-description {
+  width: 220px;
+  margin-top: 10px;
+}
+.linkedin-button {
+  width: 200px;
+  height: 40px;
+  background-color: black;
+  border-radius: 50px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.github-button {
+  width: 200px;
+  height: 40px;
+  background-color: black;
+  border-radius: 50px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.linkedin-button:hover {
+  background-color: rgb(240, 240, 177);
+  cursor: pointer;
+  color: black;
+  font-weight: 500;
+}
+
+.github-button:hover {
+  background-color: rgb(240, 240, 177);
+  cursor: pointer;
+  color: black;
+  font-weight: 500;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.my-projects {
+  height: 350px;
+  width: 65vw;
+  /* background-color: yellow; */
+  margin-left: 20px;
+  margin-top: 30px;
+  /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; */
+}
+
+.project-divs {
+  width: 100%;
+
+  height: 300px;
+  margin-top: 10px;
+  /* background-color: beige; */
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.project-attendance {
+  height: 95%;
+  /* margin-left: 1%; */
+  width: 300px;
+  border-radius: 25px;
+  background-color: white;
+  border: 1px solid rgb(208, 208, 208);
+  padding: 20px;
+}
+.project-attendance:hover {
+  background-color: rgb(240, 250, 255);
+}
+
+.tech-stack-express {
+  width: 70px;
+  height: 30px;
+}
+
+.tech-stack-react {
+  width: 30px;
+  height: 30px;
+}
+
+.tech-stack-mongo {
+  width: 40px;
+  height: 30px;
+}
+
+.project-attendance-ts {
+  margin-top: 10px;
+}
+
+.project-attendance-image {
+  margin-top: 10px;
+  border: 1px solid rgba(222, 222, 222, 0.668);
+  border-radius: 10px;
+  width: 250px;
+  height: 150px;
+  padding: px;
+}
+
+.my-social-profiles {
+  height: auto;
+  width: 65vw;
+  /* background-color: yellow; */
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+.social-profile-divs {
+  width: 60vw;
+  gap: 10px;
+
+  height: auto;
+  margin-top: 10px;
+  /* background-color: beige; */
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.social-profile-linkedin,
+.social-profile-email,
+.social-profile-whatsapp,
+.social-profile-github {
+  height: 150px;
+  /* margin-left: 1%; */
+  width: 140px;
+  border-radius: 15px;
+  background-color: white;
+  border: 1px solid rgb(208, 208, 208);
+  padding: 20px;
+}
+.social-profile-linkedin:hover {
+  background-color: rgb(227, 246, 255);
+}
+.social-profile-email:hover {
+  background-color: rgb(255, 232, 212);
+}
+.social-profile-whatsapp:hover {
+  background-color: rgb(219, 255, 216);
+}
+.social-profile-github:hover {
+  /* background-color: rgb(240, 240, 177); */
+  background-color: rgb(227, 227, 227);
+}
+.social-profile-linkedin-logo,
+.social-profile-whatsapp-logo,
+.social-profile-gmail-logo,
+.social-profile-github-logo {
+  height: 50px;
+  width: 50px;
+  border-radius: 10px;
+}
+
+.my-achievement {
+  height: 250px;
+  width: 65vw;
+  /* background-color: yellow; */
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+.achievement-divs {
+  width: 100%;
+
+  height: 200px;
+  margin-top: 10px;
+  /* background-color: beige; */
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.achievement-sih {
+  height: 95%;
+  /* margin-left: 1%; */
+  width: 300px;
+  border-radius: 25px;
+  background-color: white;
+  border: 1px solid rgb(208, 208, 208);
+  padding: 20px;
+}
+
+.achievement-sih-desc {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-top: 10px;
+  font-weight: 100;
+}
+
+.achievement-sih-name {
+  margin-top: 3px;
+  font-weight: bold;
+}
+
+.my-skills {
+  height: auto;
+  width: 300px;
+  /* background-color: yellow; */
+  margin-left: 20px;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+
+.skills-html,
+.skills-css,
+.skills-js,
+.skills-python,
+.skills-java,
+.skills-c,
+.skills-react,
+.skills-mongodb,
+.skills-figma,
+.skills-django {
+  width: 34px;
+  height: 35px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.skills-express {
+  height: 35px;
+  width: 60px;
+  margin-right: 10px;
+}
+
+.social-profile-divs div {
+  /* margin-left: 10px; */
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.my-resume {
+  height: auto;
+  width: 65vw;
+  /* background-color: yellow; */
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+.resume-divs {
+  width: 100%;
+
+  height: auto;
+  margin-top: 10px;
+  /* background-color: beige; */
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.resume-div {
+  height: 150px;
+  /* margin-left: 1%; */
+  width: 140px;
+  border-radius: 15px;
+  background-color: white;
+  border: 1px solid rgb(208, 208, 208);
+  padding: 20px;
+}
+.resume-div:hover {
+  background-color: rgb(255, 255, 234);
+}
+
+.resume-drive-logo {
+  width: 80px;
+  height: 50px;
+}
+
+.resume-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.project-title,
+.achievement-title,
+.skills-title,
+.resume-title,
+.social-profile-title {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 680px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .left {
+    position: relative;
+    height: 100px;
+    width: 100vw;
+  }
+  .right {
+    margin-top: 400px;
+    margin-left: 50%;
+    overflow-x: hidden;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+  }
+}
