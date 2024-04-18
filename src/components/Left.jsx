@@ -1,6 +1,7 @@
 import React from 'react';
 import '../styles/app.css';
 import image1 from '../images/image.png';
+
 const Left = () => {
   return (
     <div className="left">
@@ -18,7 +19,7 @@ const Left = () => {
       <a
         href="https://www.linkedin.com/in/napraveen"
         target="blank"
-        rel="noreferrer"
+        rel="noopener noreferrer"
         aria-label="LinkedIn Profile"
       >
         <div className="linkedin-button">Linkedin</div>
@@ -26,7 +27,7 @@ const Left = () => {
       <a
         href="https://github.com/napraveen"
         target="blank"
-        rel="noreferrer"
+        rel="noopener noreferrer"
         aria-label="Github Profile"
       >
         <div className="github-button">GitHub</div>

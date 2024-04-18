@@ -8,6 +8,8 @@ const Resume = () => {
         <a
           href="https://drive.google.com/file/d/1HRA0JCN6bZQmMEMxIQ2gzjt8v5N2y7jx/view?usp=drive_link"
           target="/"
+          rel="noopener noreferrer"
+          aria-label="Link to Resume in Drive"
         >
           {' '}
           <div className="resume-div">

@@ -13,6 +13,8 @@ const Projects = () => {
           <a
             href="https://github.com/napraveen/Attendance-Management-System"
             target="/"
+            rel="noopener noreferrer"
+            aria-label="Link to Attendance Management System GitHub Repository"
           >
             {' '}
             <div className="project-attendance">
