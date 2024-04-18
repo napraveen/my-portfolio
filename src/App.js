@@ -108,7 +108,7 @@ const App = () => {
           </div>
         </div>
         <div className="my-social-profiles">
-          <h2 className="social-profile-title">Connect with me 🔗</h2>
+          <h2 className="social-profile-title">Connect with me 🔗 </h2>
           <div className="social-profile-divs">
             <div>
               {' '}
