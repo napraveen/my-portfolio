@@ -370,8 +370,8 @@ a {
     position: relative;
     height: 100vh;
     width: 100vw;
-    padding-top: 20%;
-    font-size: x-large;
+    /* padding-top: 20%; */
+    font-size: large;
     margin-bottom: 0px;
   }
   .right {
