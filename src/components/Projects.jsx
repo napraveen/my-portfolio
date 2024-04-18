@@ -40,7 +40,7 @@ const Projects = () => {
                 {' '}
                 <img
                   src={Attendance}
-                  alt="a"
+                  alt="projectimage"
                   className="project-attendance-image"
                 />
               </div>

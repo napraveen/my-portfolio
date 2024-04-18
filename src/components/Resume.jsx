@@ -11,7 +11,7 @@ const Resume = () => {
         >
           {' '}
           <div className="resume-div">
-            <img src={Drive} alt="" className="resume-drive-logo" />
+            <img src={Drive} alt="drivelogo" className="resume-drive-logo" />
             <p>Resume</p>
           </div>
         </a>

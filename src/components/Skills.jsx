@@ -15,17 +15,17 @@ const Skills = () => {
     <div className="my-skills">
       <h2 className="skills-title">My Skills ⭐</h2>
       <div className="skills-divs">
-        <img src={Html} alt="" className="skills-html" />
-        <img src={Css} alt="" className="skills-css" />
-        <img src={Js} alt="" className="skills-js" />
-        <img src={Figma} alt="" className="skills-figma" />
-        <img src={Reactjs} alt="" className="skills-react" />
-        <img src={Expressjs} alt="" className="skills-express" />
-        <img src={Mongodb} alt="" className="skills-mongodb" />
-        <img src={Python} alt="" className="skills-python" />
-        <img src={C} alt="" className="skills-c" />
-        <img src={Java} alt="" className="skills-java" />
-        <img src={Django} alt="" className="skills-django" />
+        <img src={Html} alt="htmllogo" className="skills-html" />
+        <img src={Css} alt="csslogo" className="skills-css" />
+        <img src={Js} alt="jslogo" className="skills-js" />
+        <img src={Figma} alt="figmalogo" className="skills-figma" />
+        <img src={Reactjs} alt="reactjslogo" className="skills-react" />
+        <img src={Expressjs} alt="expressjslogo" className="skills-express" />
+        <img src={Mongodb} alt="mongodblogo" className="skills-mongodb" />
+        <img src={Python} alt="pythonlogo" className="skills-python" />
+        <img src={C} alt="clogo" className="skills-c" />
+        <img src={Java} alt="javalogo" className="skills-java" />
+        <img src={Django} alt="djangologo" className="skills-django" />
       </div>
     </div>
   );

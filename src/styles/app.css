@@ -398,3 +398,11 @@ a {
     margin-left: 60px;
   }
 }
+
+.tech-span {
+  background-color: black;
+  border-radius: 10px;
+  color: white;
+  padding: 3px 10px 3px 10px;
+  font-size: 10px;
+}

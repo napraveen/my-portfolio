@@ -16,7 +16,11 @@ const SocialProfiles = () => {
           >
             {' '}
             <div className="social-profile-email">
-              <img src={Gmail} alt="" className="social-profile-gmail-logo" />
+              <img
+                src={Gmail}
+                alt="gmaillogo"
+                className="social-profile-gmail-logo"
+              />
               <p>Gmail</p>
             </div>
           </a>
@@ -32,7 +36,7 @@ const SocialProfiles = () => {
             <div className="social-profile-whatsapp">
               <img
                 src={Whatsapp}
-                alt=""
+                alt="whatsapplogo"
                 className="social-profile-whatsapp-logo"
               />
               <p>Whatsapp</p>
@@ -46,7 +50,7 @@ const SocialProfiles = () => {
             <div className="social-profile-linkedin">
               <img
                 src={Linkedin}
-                alt=""
+                alt="linkedinlogo"
                 className="social-profile-gmail-logo"
               />
               <p>Linkedin</p>
@@ -59,7 +63,11 @@ const SocialProfiles = () => {
           <a href="https://github.com/napraveen" target="/">
             {' '}
             <div className="social-profile-github">
-              <img src={Github} alt="" className="social-profile-github-logo" />
+              <img
+                src={Github}
+                alt="githublogo"
+                className="social-profile-github-logo"
+              />
               <p>Github</p>
             </div>
           </a>

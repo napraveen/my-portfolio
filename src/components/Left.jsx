@@ -10,56 +10,25 @@ const Left = () => {
       <p className="my-description">
         Third-year Undergraduate ECE student with a strong knowledge in web
         development including tech stacks like{' '}
-        <span
-          style={{
-            backgroundColor: 'black',
-            borderRadius: '10px',
-            color: 'white',
-            padding: '3px 10px 3px 10px',
-            fontSize: '10px',
-          }}
-        >
-          REACT
-        </span>{' '}
-        <span
-          style={{
-            backgroundColor: 'black',
-            borderRadius: '10px',
-            color: 'white',
-            padding: '3px 10px 3px 10px',
-            fontSize: '10px',
-          }}
-        >
-          EXPRESS
-        </span>{' '}
-        <span
-          style={{
-            backgroundColor: 'black',
-            borderRadius: '10px',
-            color: 'white',
-            padding: '3px 10px 3px 10px',
-            fontSize: '10px',
-          }}
-        >
-          MONGODB
-        </span>{' '}
-        <span
-          style={{
-            backgroundColor: 'black',
-            borderRadius: '10px',
-            color: 'white',
-            padding: '3px 10px 3px 10px',
-            fontSize: '10px',
-          }}
-        >
-          {' '}
-          Django
-        </span>
+        <span className="tech-span">REACT</span>{' '}
+        <span className="tech-span">EXPRESS</span>{' '}
+        <span className="tech-span">MONGODB</span>{' '}
+        <span className="tech-span"> Django</span>
       </p>
-      <a href="https://www.linkedin.com/in/napraveen" target="blank">
+      <a
+        href="https://www.linkedin.com/in/napraveen"
+        target="blank"
+        rel="noreferrer"
+        aria-label="LinkedIn Profile"
+      >
         <div className="linkedin-button">Linkedin</div>
       </a>
-      <a href="https://github.com/napraveen" target="blank">
+      <a
+        href="https://github.com/napraveen"
+        target="blank"
+        rel="noreferrer"
+        aria-label="Github Profile"
+      >
         <div className="github-button">GitHub</div>
       </a>
     </div>
