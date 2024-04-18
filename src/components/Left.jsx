@@ -4,7 +4,7 @@ import image1 from '../images/image.png';
 const Left = () => {
   return (
     <div className="left">
-      <img src={image1} alt="" className="my-image" />
+      <img src={image1} alt="myphoto" className="my-image" />
       <h1 className="my-name">Praveen N</h1>
       <h5 className="my-title">ASPIRING FULL STACK DEVELOPER</h5>
       <p className="my-description">

@@ -20,15 +20,27 @@ const Projects = () => {
                 Attendance Management System
               </h3>
               <div className="project-attendance-ts">
-                <img src={Reactjs} alt="" className="tech-stack-react" />
-                <img src={Expressjs} alt="" className="tech-stack-express" />
-                <img src={Mongodb} alt="" className="tech-stack-mongo" />
+                <img
+                  src={Reactjs}
+                  alt="reactjslogo"
+                  className="tech-stack-react"
+                />
+                <img
+                  src={Expressjs}
+                  alt="expressjslogo"
+                  className="tech-stack-express"
+                />
+                <img
+                  src={Mongodb}
+                  alt="mongodblogo"
+                  className="tech-stack-mongo"
+                />
               </div>
               <div className="project-attendance-image-border">
                 {' '}
                 <img
                   src={Attendance}
-                  alt=""
+                  alt="a"
                   className="project-attendance-image"
                 />
               </div>
